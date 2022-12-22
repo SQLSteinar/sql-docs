@@ -47,7 +47,7 @@ Configuration options take effect either:
 
   \- or -
 
-- After performing the above actions and restarting the instance of SQL Server.
+- After restarting the instance of SQL Server.
 
 You can use the `sys.configurations` catalog view to determine the `config_value` (the `value` column) and the `run_value` (the `value_in_use` column), and whether the configuration option requires a [!INCLUDE [ssde-md](../../includes/ssde-md.md)] restart (the `is_dynamic` column).
 
