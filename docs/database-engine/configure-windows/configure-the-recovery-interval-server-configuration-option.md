@@ -87,7 +87,7 @@ EXEC sp_configure 'show advanced options', 1;
 GO  
 RECONFIGURE ;  
 GO  
-EXEC sp_configure 'recovery interval', 3 ;  
+EXEC sp_configure 'recovery interval (min)', 3 ;  
 GO  
 RECONFIGURE;  
 GO  
